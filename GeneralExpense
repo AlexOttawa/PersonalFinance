@@ -1,0 +1,13 @@
+#import webbrowser
+
+class Expense():
+    def __init__(self, expense_title, expense_amount, expense_date, expense_MOP) :
+        self.title = expense_title
+        self.amount = expense_amount
+        self.date = expense_date
+        self.MOP = expense_MOP
+    def show_info(self):
+        print "%s mount is %d and occured in %s using %s" % (self.title, self.amount, self.date, self.MOP)
+
+
+
